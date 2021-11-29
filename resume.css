@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+body{
+    background: grey;
+    font-size: 15px;
+    line-height: 30px;
+    
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi-bold{
+    font-weight: 600;
+    
+}
+
+.resume{
+    background: white;
+    width: 800px;
+    height: 2000px;
+    /* display: flex; */
+    margin: 50px auto;
+    border: 10px solid white;
+
+}
+
+.res-right{
+    width: 50%;
+    background: #29295d;
+    margin-left: 390px;
+    /* float: left; */
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.basic-info{
+    margin-top: 20px;
+    float: right;
+}
+
+.data{
+    float: right;
+    margin-right: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/* .icon{
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+  
+} */
+
+.title{
+    margin: 6px 0px;
+}
+
+.tech-skills{
+    float: left;
+    margin-top: 20px;
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+
+.skill_name{
+    display: inline-block;
+    border-radius: 8px;
+    margin: 5px 3px;
+    padding: 2px 8px;
+    background-color: black;
+}
+
+.ending-skill{
+    margin-bottom: 20px;
+}
+
+.soft-skills{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+
+.interests{
+    display: inline-block;
+    float: left;
+    margin: 10px;
+    border-bottom: 2px solid white;
+}
+
+.interest-desc, .lang{
+    display: inline-block;
+    background-color: #5c5ca5;
+    border-radius: 8px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 2px 10px;
+}
+
+.acad-pro{
+    display: inline-block;
+    margin: 5px 3px;
+    padding: 2px 8px;
+}
+
+.acad-pro-p{
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+.achievements{
+    display: inline-block;
+    margin: 5px 3px;
+    padding: 2px 8px;
+}
+
+.achieve-p{
+    border-bottom: 2px solid white;
+    padding-right: 29px;
+    padding-bottom: 20px;
+}
+.languages{
+    display: inline-block;
+    margin: 5px 3px;
+    padding: 2px 8px;
+}
+
+.res-left{
+    width: 50%;
+    background:yellow;
+    margin-right: 390px;
+    margin-top: -1786px;
+    height: auto;
+    /* float: right; */
+    /* display: flexbox; */
+}
+
+h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 32px;
+}
+
+h3{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.objective{
+    padding: 10px 10px;
+}
+
+.desc{
+    display: flexbox;
+}
+
+.qualification{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.education .certificates {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.certificates {
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.presentations {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.bottom-line{
+    border-bottom: 2px solid #29295d;
+    margin: 0px 10px;
+}
